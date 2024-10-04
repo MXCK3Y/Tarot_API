@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding-bottom: 50px;
+    
+}
+  .background {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   background-image: url("https://i.postimg.cc/d15yfcD8/red-black-sky-nebula-stars-space-galaxy-hd-space.jpg");
+   background-size: cover;
+background-position: center;
+z-index: -1;
+  }
+
+
+header {
+    font-family: Pirata One;
+    color:#e3cca9;
+    justify-content: space-between;
+    margin-right: 30px;
+    padding-top: 10px;
+    border-bottom: 1px solid  #e3cca9;
+    opacity:.9;
+    /* margin-bottom: 90px; */
+    display:flex;
+
+   
+
+
+    height:140px;
+    width:100%;
+    background-color:#18151a;
+    padding:none;
+    position:sticky;
+    top:0;
+    z-index: 99;
+}
+
+
+.share{
+    /* position:fixed; */
+    width:100px;
+    height:50px;
+    font-size: 30px;
+font-weight: bolder;
+border-radius: 20% 3% 20% 3%;
+margin-top: 80px;
+margin-right:50px;
+transition: .5s;
+background-color: #18151a;
+border: 2px solid #e3cca9;
+opacity: .7;
+flex-direction: row;
+}
+
+.share:hover{
+    width:100px;
+    height:55px;
+    cursor: pointer;
+
+}
+
+.h {
+    flex-direction: row;
+}
+
+
+h1 {
+    font-size: 120px;
+    text-decoration: underline;
+    margin-top: -15px;
+    opacity: .8;
+    text-align: center;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.card {
+    /* background-color: #e3cca9;
+    height:430px; */
+    margin:30px;
+    /* max-width: 340px; */
+    flex-direction: row;
+}
+
+section {
+    display:flex;
+
+    justify-content: center;
+
+}
+
+
+
+.pastImg {
+   width:260px;
+   height:430px;
+   border-radius:6.5%;
+   box-shadow: -4px 4px 20px #c53d3d;
+   margin-left: 10%;
+} 
+
+.presentImg {
+    width:260px;
+    height:430px;
+    border-radius:6.5%;
+    box-shadow: -4px 4px 20px #c53d3d;
+ }
+
+ .futureImg  {
+    width:260px;
+    height:430px;
+    border-radius:6.5%;
+    box-shadow: -4px 4px 20px #c53d3d;
+    margin-right: 10%;
+ }
+
+
+ .infoContainer {
+    height:250px;
+    margin:30px;
+    min-width:254px;
+    text-align: center;
+    /* opacity:0; */
+    border-radius: 3%;
+    border:3px solid #18151a;
+    height: min-content;
+    background-image: url("https://t3.ftcdn.net/jpg/03/09/82/10/240_F_309821059_rwUIFp0B9IL2HTREuc9aeDTYVLTWcaCJ.jpg");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    opacity:.88;
+    box-shadow: -4px 4px 20px #c53d3d;
+ }
+
+ button {
+    width:78px;
+    background-color: #18151a;
+    color:#e3cca9;
+    font-weight: bolder;
+    font-size: 20px ;
+    font-family: Pirata One;
+    border-radius: 5px;
+    transition:.5s;
+}
+
+.dealButton {
+    margin:0 auto;
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+        width:120px;
+        height:60px;
+        background-image: url("https://t3.ftcdn.net/jpg/03/09/82/10/240_F_309821059_rwUIFp0B9IL2HTREuc9aeDTYVLTWcaCJ.jpg");
+        color:18151a;
+        font-weight: bolder;
+        font-size: 38px ;
+        font-family: Pirata One;
+        border-radius: 5px;
+        transition:.5s;
+        border: 4px solid #18151a;
+        color:#18151a
+    
+}
+
+.dealButton:hover {
+    cursor: pointer;
+    border: 4px solid #18151a;
+    background-image: url(https://t3.ftcdn.net/jpg/03/09/82/10/240_F_309821059_rwUIFp0B9IL2HTREuc9aeDTYVLTWcaCJ.jpg);
+    color:black;
+    width:130px;
+    box-shadow: -4px 4px 20px #c53d3d;
+    }
+
+    .time {
+        font-size: 40px;
+        font-family: Pirata One;
+text-decoration: underline;
+margin-top: 0px;
+    }
+
+    .pastName, .futureName, .presentName {
+        font-family: Pirata One;
+        font-size: 30px;
+        margin-top: -40px;
+    }
+
+    .pastMeaning, .presentMeaning, .futureMeaning {
+        font-family: sans-serif;
+        font-size: 17px;
+        margin-top: -50px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
