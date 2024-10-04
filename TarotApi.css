@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    padding-bottom: 50px;
+    
+}
+  .background {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   background-image: url("https://i.postimg.cc/d15yfcD8/red-black-sky-nebula-stars-space-galaxy-hd-space.jpg");
+   background-size: cover;
+background-position: center;
+z-index: -1;
+  }
+
+
+header {
+    font-family: Pirata One;
+    color:#e3cca9;
+    justify-content: space-between;
+    /* margin-right: 30px; */
+    padding-top: 10px;
+    border-bottom: 1px solid  #e3cca9;
+    opacity:.9;
+   margin: 0px 0px 0px 0px;
+padding:0;
+
+    height:140px;
+    width:100%;
+    background-color:#18151a;
+    padding:none;
+    position:sticky;
+    top:0;
+    z-index: 99;
+    display:flex;
+}
+
+
+h1 {
+    font-size: 120px;
+    text-decoration: underline;
+    margin-top: -15px;
+    opacity: .8;
+    text-align: center;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity:5;
+
+}
+
+
+
+
+button {
+    width:78px;
+    background-color: #18151a;
+    color:#e3cca9;
+    font-weight: bolder;
+    font-size: 20px ;
+    font-family: Pirata One;
+    border-radius: 5px;
+    transition:.5s;
+}
+
+button:hover {
+cursor: pointer;
+border: 2px solid #18151a;
+background-image: url(https://t3.ftcdn.net/jpg/03/09/82/10/240_F_309821059_rwUIFp0B9IL2HTREuc9aeDTYVLTWcaCJ.jpg);
+color:black;
+}
+
+
+
+.share{
+    /* position:fixed; */
+    width:100px;
+    height:50px;
+    font-size: 30px;
+font-weight: bolder;
+border-radius: 20% 3% 20% 3%;
+transition: .5s;
+background-color: #18151a;
+border: 2px solid #e3cca9;
+opacity: .7;
+flex-direction: row;
+margin-right: 20px;
+margin-top:80px;
+}
+
+.share:hover{
+    width:100px;
+    height:55px;
+    cursor: pointer;
+
+}
+
+.h {
+    flex-direction: row;
+}
+
+
+
+.mainContainer {
+    display:flex;
+}
+
+.left{
+    display:flex;
+    flex-direction: column;
+    min-width: 330px;
+    width:50%;
+    max-width: 660px;
+    min-height: 498px;
+    height: min-content;
+    margin-left: 10%;
+   background-image: url("https://t3.ftcdn.net/jpg/03/09/82/10/240_F_309821059_rwUIFp0B9IL2HTREuc9aeDTYVLTWcaCJ.jpg");
+   background-repeat: repeat;
+   background-size: 50% 100%;
+   margin-top: -55px;
+   background-position: fixed;
+   background-attachment: fixed;
+    border-radius: 3% 3% 3% 3%;
+    box-shadow: -7px 7px 29px #c53d3d;
+    border:5px solid #18151a;
+    opacity: .88;
+    margin-top: 100px;
+    margin-right:3%;
+    margin-bottom: 100px;
+
+}
+
+
+.searchParent {
+    flex-direction: column;
+    margin-top: 410px;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+
+.buttonBox{
+    display:flex;
+    margin-top: 10px;
+    justify-content:space-between;
+}
+
+
+
+
+.mainContainer {
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+input {
+    width:230px;
+border: 3px solid #18151a;
+height:27px;
+color:black;
+background-color: white;
+border-radius:8px;
+font-family: sans-serif;
+font-size: 17px;
+}
+
+
+
+img {
+    height:506px;
+    max-width:340px;
+    box-shadow: 5px 5px 25px #c53d3d;
+    border-radius: 6.5%;
+    margin-left: 3px;
+    margin-top: -10px;
+    border:3px black; 
+    position:sticky;
+    top:220px;
+    margin-right: 10%;
+    min-width: 220px;
+    display:flex;
+    margin-bottom:100px;
+}
+
+#imgParent{
+    margin-right: 10%;
+    width:350px;
+    margin-top: 108px;
+}
+
+h3 {
+    font-size: 2.6em;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Pirata One;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    /* font-family: Pirata One; */
+    font-family: sans-serif;
+    font-weight:1px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+    
+}
+
+.scrollMenu {
+    min-width: 255px;
+   flex-grow: 1;    
+    overflow-y: scroll;  
+    border: 3px solid #18151a; 
+    padding: 5px;  
+    /* border-radius: 3%; */
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    opacity:1;
+max-height: 200px;
+
+}
+
+.scrollMenu:hover {
+opacity:.8;
+
+}
+
+
+table {
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 3px solid #18151a; 
+    border-radius: 3%;
+}
+
+
+
+.bolder {
+
+    font-weight: bolder;
+    font-family: Pirata One;
+    font-size: 25px;
+
+}
+
+
+.searchbar {
+    margin-top: 20px;
+}
+
+
+.rowContainer {
+    display: flex;
+    align-items: center; 
+    margin-right: 4px;
+    margin-left: 2px;
+}
+
+
+
+
+
+.zodiac, .meaning-up, .meaning-reverse {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+table {
+    border-radius: 3%;
+    margin-bottom:7px;
+    padding:0px;
+    border-collapse: collapse;
+    margin-top: -5px;
+}
+
+h4{
+margin-top: 0px;
+margin-bottom: 0px;
+font-family: Pirata One;
+font-size: 25px;
+text-align: center;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url("https://i.postimg.cc/d15yfcD8/red-black-sky-nebula-stars-space-galaxy-hd-space.jpg");
+    }
+
+    header {
+        font-family: Pirata One;
+        color: #e3cca9;
+        justify-content: space-between;
+        padding-top: 10px;
+        border-bottom: 1px solid #e3cca9;
+        opacity: .9;
+        margin: 0px;
+        height: 140px;
+        margin-bottom: 50px;
+        width: 100%;
+        background-color: #18151a;
+        position: sticky;
+        top: 0;
+        z-index: 99;
+        display: flex;
+    }
+
+    h1 {
+        font-size: 70px;
+        text-decoration: underline;
+        margin-top: 0px;
+        opacity: .8;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .share {
+        width: 70px;
+        height: 40px;
+        font-size: 23px;
+        font-weight: bolder;
+        border-radius: 20% 3% 20% 3%;
+        transition: .5s;
+        background-color: #18151a;
+        border: 2px solid #e3cca9;
+        opacity: .7;
+        margin-right: 20px;
+        margin-top: 90px;
+    }
+
+    .share:hover {
+        width: 80px;
+        height: 43px;
+        cursor: pointer;
+    }
+
+    .mainContainer {
+        flex-direction: column; 
+        align-items: center;
+        margin-left: 0; 
+        margin-right: 0; 
+        width: 100%; 
+    }
+
+    #imgParent {
+    
+        max-width: 420px;
+        margin-top: 0; 
+        margin-bottom: -50px; 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-left:75px;
+    order: 2; 
+    }
+
+    .left {
+        width: 100%; 
+        max-width: 420px; 
+        margin-top: 20px; 
+        margin-left: 35px;
+        margin-right:35px;
+        order: 1;
+    }
+}
