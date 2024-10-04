@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="TarotApi.js"></script>
+    <link rel="stylesheet" href="TarotApi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="background"></div>
+    <header>
+    
+        
+        <div class="h">
+            <h1>Tarot Search</h1>
+        </div>
+        <button class="share">Share</button>
+    
+    </header>
+
+
+    <div class="mainContainer">
+        <div class="left">
+            <h3 class="name">Name</h3>
+                
+
+
+                <table border=1>
+                    <tr>
+                    <td class="bolder">Zodiac:</td>
+                    <td><p class="zodiac"></p></td>
+                    </tr>
+
+                    <tr>
+                    <td class="bolder">Upward:</td>
+                    <td><p class="meaning-up"></p></td>
+                </tr>
+                <tr>
+                    <td class="bolder">Reverse:</td>
+                    <td><p class="meaning-reverse"></p></td>
+                    
+                    </tr>
+                    </table>
+<h4>Description:</h4>
+            <div class="scrollMenu">
+            <p class="description"></p>
+        </div>
+            <div class="searchParent">
+                <div class="searchChild">
+                    <input class="searchBar" type="text" placeholder="Search by #  (1-78), or name">
+                    <button class="find">Find!</button>
+                </div>
+                <div class="buttonBox">
+                    <button class="previous">Prev</button>
+                    <button class="random">Random</button>
+                    <button class="next">Next</button>
+                </div>
+            </div>
+        </div>
+         <div id="imgParent">
+            <img id="imgContainer" src="https://images.squarespace-cdn.com/content/v1/6282048f3ddae806d695b4b8/56f8e010-dfbb-45af-8dbc-1db454df5cee/Tarotcardback.jpg?format=300w"/>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
